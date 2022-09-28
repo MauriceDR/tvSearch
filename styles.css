@@ -59,3 +59,24 @@ label {
 .button {
   display: flex;
 }
+
+.resultContainer {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.resultContainer h1 {
+  color: white;
+  font-size: medium;
+  padding-top: 35px;
+}
+
+.resultContainer.show {
+  color: white;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.results {
+  border: 1px solid rgb(0, 225, 255);
+}
