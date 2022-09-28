@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+<video autoplay muted loop id="video" src="images/Anime.mp4" type="video/mp4"></video>
+
+    <div class="container">
+      <div class="header"><h1>Movie Search</h1></div>
+      <div class="form">
+      <form id="searchMovie">
+        <input type="text" placeholder="Enter a movie" name="query" />
+        <label for="genre">Genre:</label>
+        <select name="genre" id="genre">
+          <option value="Action">None</option>
+          <option value="Action">Action</option>
+          <option value="Action">Adventure</option>
+          <option value="Action">Mystery</option>
+          <option value="Action">Comedy</option>
+        </select>
+        <button>Search</button>
+    </div>
+        
+      </form>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
